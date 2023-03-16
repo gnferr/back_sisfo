@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^login LoginAuth.php
+RewriteRule ^all-mahasiswa getall-mahasiswa.php
+RewriteRule ^mahasiswa/([0-9]+) getnim-mahasiswa.php?nim=$1
+RewriteRule ^lihat/([0-9]+)/(.*)$ produk.php?id=$1&nama=$2
