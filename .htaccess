@@ -3,4 +3,7 @@ RewriteEngine on
 RewriteRule ^login LoginAuth.php
 RewriteRule ^all-mahasiswa getall-mahasiswa.php
 RewriteRule ^mahasiswa/([0-9]+) getnim-mahasiswa.php?nim=$1
+RewriteRule ^akademik-mahasiswa/([0-9]+) getipk-mahasiswa.php?nim=$1
 RewriteRule ^nilai-mahasiswa/([0-9]+) getnilai-mahasiswa.php?nim=$1
+RewriteRule ^logkondite-mahasiswa/([0-9]+) getlogkondite.php?nim=$1
+RewriteRule ^filter-tahun/([0-9]+) filter-tahun.php?nim=$1
